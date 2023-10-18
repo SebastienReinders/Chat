@@ -1,0 +1,107 @@
+
+#head
+{
+    background-color: #f2f2f2;
+    color: #555;
+    border: 2px black solid;
+    display: flex;
+    height: 2cm;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#foot
+{
+    background-color: #f2f2f2; 
+    padding: 20px; 
+    text-align: center; 
+    font-size: 14px; 
+    color: #555; 
+}
+
+.S
+{
+    color: red;
+}
+.F
+{
+    color: pink;
+}
+
+.M
+{
+    color: blue;
+}
+
+.valide
+{
+    text-align: center;
+    font-size: 35px;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgray;
+}
+
+.formu
+{
+    display: block;
+    margin: auto;
+    background-color: #4CAF50;
+    text-align: right;
+    border: 4px black solid;
+    border-radius: 15%;
+    margin: 1cm;
+    padding: 1cm;
+    width: fit-content;
+}
+
+.formu3
+{
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    bottom: 0cm;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; 
+    border: 4px black solid; 
+    width: fit-content;
+}
+
+
+.boucle
+{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: auto;
+    margin: 0.1cm;
+    padding: 0.3cm;
+}
+
+.prec
+{
+    position: fixed;
+    bottom: 0.3cm;
+}
+
+.suiv
+{
+    position: fixed;
+    bottom: 0.3cm;
+    left: 5cm;  
+}
+
+pre
+{
+    display: flex;
+    flex-wrap: wrap;
+}

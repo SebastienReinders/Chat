@@ -1,0 +1,156 @@
+form
+{
+    background-color: #4CAF50;
+    text-align: right;
+    border: 4px black solid;
+    border-radius: 15%;
+    margin: 1cm;
+    padding: 1cm;
+    width: fit-content;
+}
+
+.valide
+{
+    text-align: center;
+    font-size: 35px;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgray;
+}
+
+#head
+{
+    background-color: #f2f2f2;
+    color: #555;
+    border: 2px black solid;
+    display: flex;
+    height: 2cm;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#foot
+{
+    background-color: #f2f2f2; 
+    padding: 20px; 
+    text-align: center; 
+    font-size: 14px; 
+    color: #555; 
+    margin-top: 5cm;
+}
+
+
+
+div > a
+{
+    background-color: transparent;
+    color: #0066cc;   
+}
+
+div > p
+{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+a.age:hover::before 
+{
+    content: "Inscription à partir de 14 ans.";
+    position: absolute;
+    transform: translateX(50%);
+    padding: 0.5em;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.age
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.image
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.formu
+{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.error
+{
+    color: red;
+}
+
+.boucle
+{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: auto;
+    border: 6px black dashed;
+    margin: 0.1cm;
+    padding: 0.3cm;
+}
+
+
+.formu3
+{
+    /*position: absolute;
+    bottom: 0;*/
+    position: absolute;
+    bottom: -7cm;
+    right: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
